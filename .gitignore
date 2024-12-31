@@ -121,4 +121,22 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-docs/TEST_CHECKLIST.md
+# Documentation
+docs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# Local development
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
